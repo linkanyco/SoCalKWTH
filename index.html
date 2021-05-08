@@ -16,17 +16,25 @@
           <div id="unity-progress-bar-full"></div>
         </div>
       </div>
+      <div id="unity-mobile-warning">
+        WebGL builds are not supported on mobile devices.
+      </div>
+      <div id="unity-footer">
+        <div id="unity-webgl-logo"></div>
+        <div id="unity-fullscreen-button"></div>
+        <div id="unity-build-title">WTH</div>
+      </div>
     </div>
     <script>
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Build_WTH_0508_WEBGL.loader.js";
       var config = {
-        dataUrl: buildUrl + "/Build_WTH_0508_WEBGL.data.br",
-        frameworkUrl: buildUrl + "/Build_WTH_0508_WEBGL.framework.js.br",
-        codeUrl: buildUrl + "/Build_WTH_0508_WEBGL.wasm.br",
+        dataUrl: buildUrl + "/Build_WTH_0508_WEBGL.data",
+        frameworkUrl: buildUrl + "/Build_WTH_0508_WEBGL.framework.js",
+        codeUrl: buildUrl + "/Build_WTH_0508_WEBGL.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
-        productName: "WTH_PHOTON",
+        productName: "WTH",
         productVersion: "1.0",
       };
 
